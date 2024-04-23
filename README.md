@@ -16,6 +16,6 @@
 * Security Management
 
   # Documentation
-  The official documentation is hosted on [docker.com](https://www.docker.com/).
+  The official documentation is hosted on [docker.com](https://docs.docker.com/).
   # Useful Docker Commands 
   
