@@ -16,6 +16,7 @@ Although Docker provides lots of features, we are listing some major features wh
 * Security Management
 ## Why Docker
 "With Docker, developers can build any app in any language using any toolchain. “Dockerized” apps are completely portable and can run anywhere - colleagues’ OS X and Windows laptops, QA servers running Ubuntu in the cloud, and production data center VMs running Red Hat.
+
 Developers can get going quickly by starting with one of the 13,000+ apps available on Docker Hub. Docker manages and tracks changes and dependencies, making it easier for sysadmins to understand how the apps that developers build work. And with Docker Hub, developers can automate their build pipeline and share artifacts with collaborators through public or private repositories.
 
   ## Documentation
@@ -27,7 +28,7 @@ Developers can get going quickly by starting with one of the 13,000+ apps availa
   ## Docker Compose
   * tool for defining & running multi-container docker applications
   * use yaml files to configure application services (docker-compose.yml)
-  * :can start all services with a single command :docker compose up
-  * :can stop all services with a single command :docker compose down
-  * :can scale up selected services when required
+  * can start all services with a single command :docker compose up
+  * can stop all services with a single command :docker compose down
+  * can scale up selected services when required
   
