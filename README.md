@@ -24,4 +24,10 @@
   ## Linux
   ### The 3.10.x kernel is [the minimum requirement](https://docs.docker.com/engine/install/binaries/#check-kernel-dependencies) for Docker.
   ### See the [docker website](https://docs.docker.com/build/) for installation instructions 
+  # Docker Compose
+  ### :tool for defining & running multi-container docker applications
+  ### :use yaml files to configure application services (docker-compose.yml)
+  ### :can start all services with a single command :docker compose up
+  ### :can stop all services with a single command :docker compose down
+  ### :can scale up selected services when required
   
