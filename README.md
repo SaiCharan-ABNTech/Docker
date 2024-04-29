@@ -24,7 +24,28 @@ Developers can get going quickly by starting with one of the 13,000+ apps availa
   ## Prerequisites
   ## Linux
   ### The 3.10.x kernel is [the minimum requirement](https://docs.docker.com/engine/install/binaries/#check-kernel-dependencies) for Docker.
-  ### See the [docker website](https://docs.docker.com/build/) for installation instructions 
+  ### Installation
+  See the [docker website](https://docs.docker.com/build/) for installation instructions
+  ## Docker Commands
+  # Basic
+  * docker version
+  * docker -v
+  * docker info
+  * docker --help
+  * docker login
+  # Images
+  * docker images
+  * docker pull
+  * docker rmi
+  # Containers
+  * docker ps
+  * docker run
+  * docker start
+  * docker stop
+  # System
+  * docker stats
+  * docker system df
+  * docker system prune
   ## Docker Compose
   * tool for defining & running multi-container docker applications
   * use yaml files to configure application services (docker-compose.yaml)
