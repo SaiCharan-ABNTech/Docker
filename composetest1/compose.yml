@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    ports:
+    - 8000:8000
+    volumes:
+      - ./app:/app
+    environment:
+      - SMTP_USERNAME=kotamaneesha67@gmail.com
+      - SMTP_PASSWORD=qdor lirg pghi znyg
+      - SMTP_FROM=kotamaneesha67@gmail.com
+      - SMTP_PORT=587
+      - SMTP_SERVER=smtp.gmail.com
+      - SMTP_STARTTLS=True
+      - SMTP_SSL_TLS=False
+      - SMTP_USE_CREDENTIALS=True
+      - SMTP_VALIDATE_CERTS=True
+
